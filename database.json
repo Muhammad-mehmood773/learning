@@ -1,0 +1,122 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "Ali",
+      "lastName": "Khan",
+      "email": "ali.khan@school.edu",
+      "phone": "03001234567",
+      "subject": "Mathematics",
+      "joinDate": "2022-08-15"
+    },
+    {
+      "id": 2,
+      "firstName": "Sara",
+      "lastName": "Ahmed",
+      "email": "sara.ahmed@school.edu",
+      "phone": "03017654321",
+      "subject": "English",
+      "joinDate": "2023-01-10"
+    },
+    {
+      "id": 3,
+      "firstName": "Usman",
+      "lastName": "Raza",
+      "email": "usman.raza@school.edu",
+      "phone": "03009998888",
+      "subject": "Science",
+      "joinDate": "2021-05-25"
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Ayesha",
+      "lastName": "Malik",
+      "email": "ayesha.malik@student.edu",
+      "phone": "03002221111",
+      "class": "10th Grade",
+      "rollNumber": "STU001",
+      "admissionDate": "2023-03-12"
+    },
+    {
+      "id": 2,
+      "firstName": "Hassan",
+      "lastName": "Ali",
+      "email": "hassan.ali@student.edu",
+      "phone": "03004567890",
+      "class": "9th Grade",
+      "rollNumber": "STU002",
+      "admissionDate": "2023-01-05"
+    },
+    {
+      "id": 3,
+      "firstName": "Fatima",
+      "lastName": "Shaikh",
+      "email": "fatima.shaikh@student.edu",
+      "phone": "03003456789",
+      "class": "8th Grade",
+      "rollNumber": "STU003",
+      "admissionDate": "2022-09-20"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "courseName": "Mathematics",
+      "courseCode": "MTH101",
+      "teacherId": 1,
+      "creditHours": 3,
+      "semester": "Spring 2025"
+    },
+    {
+      "id": 2,
+      "courseName": "English Literature",
+      "courseCode": "ENG202",
+      "teacherId": 2,
+      "creditHours": 2,
+      "semester": "Spring 2025"
+    },
+    {
+      "id": 3,
+      "courseName": "General Science",
+      "courseCode": "SCI103",
+      "teacherId": 3,
+      "creditHours": 3,
+      "semester": "Fall 2025"
+    }
+  ],
+
+  "attendance": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "courseId": 1,
+      "date": "2025-10-14",
+      "status": "Present"
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "courseId": 1,
+      "date": "2025-10-14",
+      "status": "Absent"
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "courseId": 2,
+      "date": "2025-10-14",
+      "status": "Present"
+    },
+    {
+      "id": 4,
+      "studentId": 1,
+      "courseId": 3,
+      "date": "2025-10-15",
+      "status": "Present"
+    }
+  ]
+}

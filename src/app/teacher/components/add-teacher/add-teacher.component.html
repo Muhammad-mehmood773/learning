@@ -1,0 +1,16 @@
+<!-- 
+
+<form [formGroup]="dynamicForm">
+  <div formArrayName="skills">
+    <div *ngFor="let skill of skills.controls; let i=index">
+      <input [formControlName]="i" placeholder="Skill">
+      <button (click)="removeSkill(i)">Remove</button>
+    </div>
+  </div>
+  <button (click)="addSkill()">Add Skill</button>
+</form>
+
+ -->
+
+ <app-teacher-list [recivedName]="name" (notify)="onNotify($event)"></app-teacher-list>
+
