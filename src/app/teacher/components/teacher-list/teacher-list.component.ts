@@ -74,16 +74,6 @@ export class TeacherListComponent implements OnInit, OnChanges, OnDestroy {
       console.log(value.toUpperCase());
 
     }
-
-
-
   }
-
-
-
-
-
-
-
 
 }
